@@ -1,0 +1,101 @@
+[
+    {
+        "nombre":"Mauricio Escalante",
+        "especialidad":"Desarrollador",
+        "avatar":"/assets/avatarYo.jpg",
+        "descripcion":"Me llamo Mauricio, tengo 18 años y estoy estudiando la carrera de Diseño y Desarrollo de Software",
+        "habilidades":[
+            {
+                "nombre":"Flutter",
+                "descripcion":"Framework de desarrollo móvil multiplataforma",
+                "logo":"/assets/flutter.png"
+            },
+            {
+                "nombre":"React",
+                "descripcion":"Framework de desarrollo web reactivo (SPA)",
+                "logo":"/assets/react.png"
+            },
+            {
+                "nombre":"Vue JS",
+                "descripcion":"Framework de desarrollo web reactivo (SPA)",
+                "logo":"/assets/vue.png"
+            },
+            {
+                "nombre":"Django",
+                "descripcion":"Framework de desarrollo web orientado al backend",
+                "logo":"/assets/django.png"
+            },
+            {
+                "nombre":"Laravel",
+                "descripcion":"Framework de desarrollo web orientado al backend",
+                "logo":"/assets/laravel.png"
+            },
+            {
+                "nombre":"MySQL",
+                "descripcion":"Sistema gestor de base de datos relacionales",
+                "logo":"/assets/mysql.png"
+            },
+            {
+                "nombre":"MongoDB",
+                "descripcion":"Sistema gestor de base de datos no relacionales",
+                "logo":"/assets/mongo.png"
+            },
+            {
+                "nombre":"Express JS",
+                "descripcion":"Framework de desarrollo de aplicaciones web en Node.JS",
+                "logo":"/assets/express.png"
+            },
+            {
+                "nombre":"PocketBase",
+                "descripcion":"Backend basado en Go de codigo abierto",
+                "logo":"/assets/pocketbasepng.png"
+            }
+        ],
+        "contacto":{
+            "titulo":"Mi trabajo",
+            "urls":[
+                {
+                    "nombre":"Github",
+                    "url":"https://github.com/chupino"
+                }
+            ]
+        }
+    },
+    {
+        "nombre":"George Monkey",
+        "avatar":"/assets/monkey2.jpg",
+        "especialidad":"Desarrollador",
+        "descripcion":"Me llamo George, tengo 17 años y estoy empezando en el mundo de la programación",
+        "habilidades":[
+            {
+                "nombre":"Vue JS",
+                "descripcion":"Framework de desarrollo web reactivo (SPA)",
+                "logo":"/assets/vue.png"
+            },
+            {
+                "nombre":"Laravel",
+                "descripcion":"Framework de desarrollo web orientado al backend",
+                "logo":"/assets/laravel.png"
+            },
+            {
+                "nombre":"MySQL",
+                "descripcion":"Sistema gestor de base de datos relacionales",
+                "logo":"/assets/mysql.png"
+            },
+            {
+                "nombre":"Express JS",
+                "descripcion":"Framework de desarrollo de aplicaciones web en Node.JS",
+                "logo":"/assets/express.png"
+            }
+        ],
+        "contacto":{
+            "titulo":"Contactame aqui!",
+            "urls":[
+                {
+                    "nombre":"Facebook",
+                    "url":"https://facebook.com"
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+
+</head>
+
+<body>
+  <header>
+    <section>
+      <div class="header-content">
+        <h1>Soy <%= user.nombre %></h1>
+        <p><%= user.especialidad %> y este es mi portafolio</p> 
+        
+      </div>
+    </section>
+  </header>
+  <div class="content_box">
+    <div class="content active">
+
+      <h1>Habilidades</h1>
+      <br>
+      <% user.habilidades.forEach((item) =>{ %>
+      <div class="card">
+        <img src="<%= item.logo %>" alt="">
+        <div class="content-card">
+          <h1><%= item.nombre %></h1>
+          <p><%= item.descripcion %></p>
+        </div>
+      </div>
+      <br>
+      <% }) %>
+    </div>
+  </div>
+
+</body>
+
+</html>-
